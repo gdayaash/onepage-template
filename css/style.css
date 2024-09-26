@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background: #f6f8fb;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Poppins", system-ui;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+/* Banner Area */
+.slide-one {
+  padding: 150px 0px;
+}
+
+.rj_title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.3em;
+}
+
+.rj_title > span {
+  color: #b8943a;
+}
+
+.bg {
+  background-image: url("/img/bg_banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Banner Area */
+
+/* Image-Gallery  */
+
+.slide-two {
+  margin: -160px 0px 0px 0px;
+}
+
+.lbr {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.rbr {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Image-Gallery  */
+
+/* Packages  */
+
+.tour {
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.jaipur {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1;
+}
+
+.ctr-prev {
+  left: -12px;
+}
+
+.ctr-nxt {
+  right: -12px;
+}
+
+.bck {
+  background-color: #00000080;
+  padding: 12px;
+  border-radius: 25px;
+  border: 2px solid #fff;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: -1.2em;
+  left: 3%;
+  color: #fff;
+  text-align: left;
+}
+
+.item1 {
+  color: #e0e0e0;
+}
+
+/* Overlay on Images  */
+
+.overlay::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 40%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.9) 50%
+  );
+}
+
+/* Overlay on Images  */
+
+/* Pagination */
+
+/* Custom Pagination Styling */
+.custom-pagination {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #515151;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.custom-pagination .phold {
+  margin: 0 5px;
+  padding: 2px 15px;
+  background-color: rgba(224, 224, 224, 0.9);
+  border-radius: 20px;
+}
+
+.circle {
+  background-color: #e0e0e095;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+/* Pagination */
+
+/* Sidebar  */
+
+.tpackages {
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.pkg-one {
+  border-radius: 17.712px;
+  background: rgba(243, 238, 231, 0.6);
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+}
+
+.pck-head {
+  color: #875713;
+}
+
+.pck-text {
+  font-weight: 500;
+}
+.pinpoints {
+  border-left: #1b1b1b dotted 1px;
+  display: flex;
+  padding: 0px 0px 0px 12px;
+  position: relative;
+}
+
+.pinpoints:first-of-type {
+  border-top: transparent;
+}
+
+.pinpoints:last-of-type {
+  border-left: #000 dotted 1px;
+}
+
+.pinpoints::before {
+  background-color: #000;
+  border-radius: 100%;
+  content: "";
+  height: 0.5rem;
+  width: 0.5rem;
+  position: absolute;
+  top: 10px;
+  left: -0.3rem;
+}
+
+.card-text {
+  line-height: 1.3em;
+}
+
+/* Sidebar  */
+
+/* Additions  */
+
+.slide-four {
+  padding: 40px 0px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.grid-box img {
+  width: 100%;
+}
+
+/* Additions  */
+
+/* Travel  */
+
+.slide-five {
+  padding: 40px 0px;
+}
+
+.arrive {
+  background-color: #875713;
+  border-radius: 10px;
+}
+
+.cta-card {
+  background-image: url("/img/travelbg.png");
+  background-size: cover;
+  padding: 50px 40px;
+}
+
+.cta-btn {
+  background-color: #875713;
+}
+
+.cta-btn:hover {
+  background-color: #000;
+}
